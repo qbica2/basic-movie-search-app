@@ -42,11 +42,8 @@
             }
     
             &::placeholder{
-                position: absolute;
                 width: 56px;
                 height: 24px;
-                left: 12px;
-                top: calc(50% - 24px/2);
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 24px;
