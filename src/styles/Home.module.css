@@ -64,4 +64,10 @@
             justify-content: center;
   }
 }
+
+@media screen and (max-height: 400px) {
+  .container .bottom {
+    margin: 8px 0;
+  }
+}
 /*# sourceMappingURL=Home.module.css.map */

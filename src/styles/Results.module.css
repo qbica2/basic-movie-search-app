@@ -38,4 +38,10 @@
     width: 343px;
   }
 }
+
+@media screen and (max-height: 400px) {
+  .results {
+    margin: 16px 0;
+  }
+}
 /*# sourceMappingURL=Results.module.css.map */
