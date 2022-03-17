@@ -1,0 +1,35 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 521px;
+  height: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .title {
+  color: #000;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+}
+
+.header .subtitle {
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    width: 343px;
+  }
+}
+/*# sourceMappingURL=Header.module.css.map */

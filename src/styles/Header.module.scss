@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 521px;
+    height: 80px;
+    justify-content: space-between;
+
+    .title{
+        color: #000;
+        font-size:32px;
+        line-height: 48px;
+        font-weight: 500;
+    }
+    .subtitle{
+        color: #000;
+        font-size:16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header{
+        width: 343px;
+    }
+}

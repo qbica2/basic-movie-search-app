@@ -1,0 +1,45 @@
+.results{
+    width: 521px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #24242440;
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    &:hover{
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .title{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 8px 0px;
+    }
+
+    .movies{
+     
+        .subtitle{
+            font-size:12px;
+            font-weight: 400;
+            line-height: 18px;
+            color: #171717;
+            margin: 8px 0px;
+        }
+
+        .movieTitle{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #171717;
+            margin: 8px 0px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .results{
+        width: 343px;
+    }
+}

@@ -1,0 +1,37 @@
+.container{
+
+    width: 865px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 16px 0; 
+        padding: 0px;
+        position: static;
+        left: calc(50% - 865px/2);
+        top: calc(50% - 240px/2 + 48px);
+      }
+  }
+
+  .alignCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 992px){
+    .container{
+      width: 343px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      
+    }
+  }
