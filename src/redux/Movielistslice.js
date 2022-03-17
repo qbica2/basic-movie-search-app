@@ -22,7 +22,6 @@ export const movieSlice = createSlice({
         },
         [getMovies.fulfilled]: (state, action) => {
             state.movieList = action.payload;
-            console.log(action.payload);
             state.status = 'succeeded';
         },
         [getMovies.rejected]: (state, action) => {

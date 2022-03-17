@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../styles/Results.module.css"
+import Movie from "./Movie";
 
 import { useSelector } from 'react-redux';
 
@@ -24,11 +25,14 @@ function Results() {
         }
         <div className={styles.movies}>
           {
-            search && (<div className={styles.subtitle}>click on a movie title to learn more about it</div>)
+            search && 
+            (
+              <div className={styles.subtitle}>click on a movie title to learn more about it</div>
+            )
           }
           {
             firstThreeMovies?.map(movie => (
-              <div key={movie.imdbID} className={styles.movieTitle}>{movie.Title}</div>
+              <Movie key={movie.imdbID} title={movie.Title} />
             ))
           }
         </div>
